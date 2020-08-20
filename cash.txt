@@ -1,1 +1,15 @@
-
+huans-mbp:~ huan$ mkdir SoftDevI
+huans-mbp:~ huan$ cd SoftDevI
+huans-mbp:SoftDevI huan$ mkdir Unit01
+huans-mbp:SoftDevI huan$ cd Unit01
+huans-mbp:Unit01 huan$ nano file01.txt
+huans-mbp:Unit01 huan$ nano file02.txt
+huans-mbp:Unit01 huan$ cp file01.txt file02.txt
+huans-mbp:Unit01 huan$ mkdir assignment01
+huans-mbp:Unit01 huan$ cd assignment01
+huans-mbp:assignment01 huan$ mkdir Huan
+huans-mbp:assignment01 huan$ cd Huan
+huans-mbp:Huan huan$ mv ~/SoftDevI/Unit01/file02.txt ~/SoftDevI/Unit01/assignment01/Huan
+huans-mbp:Huan huan$ open file02.txt
+huans-mbp:Huan huan$ cd ~/SoftDevI/Unit01
+huans-mbp:Unit01 huan$ rm -r assignment01
